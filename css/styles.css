@@ -4,16 +4,20 @@
 }*/
 
 body {
-  background-color: tan;
+  background-color: none;
   font-family: sans-serif;
 }
 
 .jumbotron {
-  background-color: tan;
+  background-color: white;
   border-bottom: solid black 3px;
 }
 
 
 .radio {
 font-weight: bold;
+}
+
+.apply {
+  display: none;
 }

@@ -26,9 +26,5 @@ $(document).ready(function() {
     alert("Based on your answers, we reccomend you take the Java/Android course!")
   }
 
-
-
-
-
   });
 });
