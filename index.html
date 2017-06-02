@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Track Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="main">Which course should you take?</h1>
+      <form id="info">
+        <h1>Which are you most interested in?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="software">
+            Software Development
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="webDesign">
+            Web Design
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="webDev">
+            Web Development
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interests" value="mobileDev">
+            Mobile Development
+          </label>
+        </div>
+        <h1>Are you doing it for the money?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="money" value="yes">
+            Yes
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="money" value="no">
+            No
+          </label>
+        </div>
+        <h1>Would you prefer working for yourself or a company?</h1>
+        <div class="radio">
+          <label>
+            <input type="radio" name="business" value="myself">
+            Myself
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="business" value="company">
+            Company
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <p><span class="bullshit"></span></p>
+    </div>
+  </body>
+</html>
