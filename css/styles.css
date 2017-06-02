@@ -1,7 +1,3 @@
-/*#main {
-  text-align: center;
-  border: solid 3px black;
-}*/
 
 body {
   background-color: none;
@@ -12,7 +8,6 @@ body {
   background-color: white;
   border-bottom: solid black 3px;
 }
-
 
 .radio {
 font-weight: bold;

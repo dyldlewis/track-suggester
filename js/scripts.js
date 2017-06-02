@@ -6,8 +6,7 @@ $(document).ready(function() {
     var business = $("input:radio[name=business]:checked").val();
     var frequency = $("input:radio[name=frequency]:checked").val();
     var workethic = $("input:radio[name=workethic]:checked").val();
-
-
+                      // Back end logic //        
   if (money === "yes") {
     alert("Programming is hard and requires passion, if you're doing it for money we reccomend you don't take any courses!")
   } else if (workethic === "no") {
