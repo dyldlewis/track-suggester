@@ -16,3 +16,16 @@ font-weight: bold;
 .apply {
   display: none;
 }
+
+img {
+  height: 300px;
+  width: 600px;
+}
+
+.results {
+  font-family: cursive;
+  border: solid 2px black;
+  display: none;
+  padding: 30px;
+  text-align: center;
+}
