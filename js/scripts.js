@@ -24,6 +24,11 @@ $(document).ready(function() {
   } else if (interest === "mobileDev") {
     $("#recommend").text("Based on your answers, we recommend you take the Java/Android course!")
   }
-  $(".results").show();
+    $(".results").show();
+    $(".results").click(function() {
+    $(".results").show();
+    $(".results").toggle();
+
+  });
   });
 });
